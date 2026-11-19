@@ -1,5 +1,3 @@
-// Project Rox Google Forms connection.
-// Paste the published Google Forms EMBED URL between the quotes below.
-// Example format: https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true
-// Leave blank until the form is published under roxanneligason@gmail.com.
-window.ROX_GOOGLE_FORM_EMBED_URL = "";
+// Project Rox public consultation form (created using the owner's Google Apps Script).
+// This is a public form URL, not a password or API key.
+window.ROX_GOOGLE_FORM_EMBED_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdU9cHck1UbavfqBK9MfSm4SWu7lA9mflhlACgQGGRvQcykrA/viewform?embedded=true";
