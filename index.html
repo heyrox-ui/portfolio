@@ -116,7 +116,7 @@
       if (typeof configured !== 'string' || !configured.trim()) return;
       let url;
       try { url = new URL(configured); } catch (_) { return; }
-      if (url.protocol !== 'https:' || url.hostname !== 'docs.google.com' || !/^\\/forms\\/d\\/e\\/[a-zA-Z0-9_-]+\\/viewform$/.test(url.pathname)) return;
+      if (url.protocol !== 'https:' || url.hostname !== 'docs.google.com' || !url.pathname.startsWith('/forms/d/e/') || !url.pathname.endsWith('/viewform')) return;
       url.searchParams.set('embedded', 'true');
       const iframe = document.getElementById('google-form');
       iframe.src = url.toString();
