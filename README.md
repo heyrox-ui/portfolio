@@ -1,4 +1,4 @@
-# Rox Digital Growth Studio
+# heyrox
 
 A responsive marketing and automation portfolio targeting US real estate agents and small teams.
 
